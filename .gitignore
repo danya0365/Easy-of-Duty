@@ -14,3 +14,13 @@ demo/
 .tmp-demo/
 .tmp-rend/
 revcrops/
+
+# Claude Code — toolkit ถูก commit เข้า repo ยกเว้นค่าเฉพาะเครื่อง/ความลับ
+.claude/settings.local.json
+.mcp.json
+CLAUDE.local.md
+
+# Secrets
+.env
+.env.*
+!.env.example
